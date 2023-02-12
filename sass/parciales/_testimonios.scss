@@ -1,0 +1,40 @@
+.testimonios{
+    &-background{
+        background-color: rgba(31, 39, 43, 0.7);
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 25px;
+        overflow: hidden;
+    }
+    &-fuente{
+        color: #DCCBC8;
+        font-size: 25px;
+      }
+    &-section{
+        margin-bottom: 5rem;
+      }
+  }
+  .carousel {
+    position: relative;
+    &.inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+      }
+    &-inner::after {
+        display: block;
+        clear: both;
+        content: "";
+      }
+    &-item {
+        position: relative;
+        display: none;
+        float: left;
+        width: 100%;
+        margin-right: -100%;
+        backface-visibility: hidden;
+        transition: transform 0.6s ease-in-out;
+      }
+  }

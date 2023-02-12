@@ -1,0 +1,38 @@
+.main{
+    &-button {
+        background-color: #000;
+        color: #fff;
+        display: inline-block;
+        padding: 6px;
+        & a {
+            color: #fff;
+            text-decoration: none;
+          }
+        }
+    &-banner {
+        position: relative;
+        max-height: 100%;
+        overflow: hidden;
+        margin-bottom: -7px;
+        & .caption {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            & h2 {
+                margin-top: 20px;
+                margin-bottom: 20px;
+                text-transform: uppercase;
+                font-weight: 500;
+                color: #fff;
+                letter-spacing: 1px;
+              }
+            & p {
+                color: #fff;
+                font-size: 14px;
+                max-width: 570px;
+          }
+          }
+        }
+}
+
+  

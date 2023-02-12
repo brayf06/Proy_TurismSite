@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- BT y CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    
+    <link rel="stylesheet" href="./css/compilado.css" />
+    <script
+      src="https://kit.fontawesome.com/332a215f17.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>CityTour Turismo</title>
+  </head>
+  <body>
+    <!---Navegacion-->
+    <div class="nav">
+      <input type="checkbox" id="nav-check" />
+      <div class="nav-header">
+        <div class="nav-title">CityTour</div>
+      </div>
+      <div class="nav-btn">
+        <label for="nav-check">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+      <div class="nav-links">
+        <a href="./turismo/paquetes.html">Paquetes</a>
+        <a href="./turismo/servicios.html">Servicios</a>
+        <a href="./turismo/testimonios.html">Testimonios</a>
+        <a href="./turismo/contacto.html">Contacto</a>
+      </div>
+    </div>
+    <!--Seccion principal-->
+    <section class="section main-banner" id="top" data-section="section1">
+      <video autoplay muted loop class="video">
+        <source
+          src="./media/ny_video.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <div class="video-overlay header-text">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="caption">
+                <h2>CityTour Turismo</h2>
+                <p>
+                  Bienvenido a CityTour turismo, en nuestro sitio podra encontrar las mejores ofertas de paquetes turisticos.
+                  Ademas de poder obtener cotizacion de paquetes aereos y terrestres.
+                  Contactenos para mas consultas!
+                </p>
+                <div class="main-button">
+                  <a href="">Contacto</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Ofertas y destinos-->
+    <section class="packages">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="section-heading">
+              <h2 class="text-white fw-bold">Nuestras mejores ofertas</h2>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="categories">
+              <h4>Categorias</h4>
+              <ul>
+                <li><a href="#">Hotel</a></li><br> 
+                <li><a href="#">Vuelos</a></li><br>
+                <li><a href="#">Hotel y vuelo</a></li><br>
+                <li><a href="#">Cruceros</a></li><br>
+              </ul>
+              <div class="main-button">
+                <a href="./turismo/paquetes.html" class="text-white">Mas promociones y paquetes</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="package-des">
+                  <div class="thumb">
+                    <div class="price">
+                      <span>$650.00</span>
+                    </div>
+                    <a href="./turismo/paquetes.html"
+                      ><img class="img-fluid" src="./media/cancun.jpg" atl="CancunIMG"
+                    /></a>
+                  </div>
+                  <div class="down-content">
+                    <div class="deal">
+                      <h6 class="text-dark fw-bold">OFF<span>10%</span></h6>
+                    </div>
+                    <a href="./turismo/paquetes.html"><h4>Vuelo a Cancun</h4></a>
+                    <p> Vuelo a Cancun ida y vuelta <br /> Promocion de viaje al Caribe</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="package-des">
+                  <div class="thumb">
+                    <div class="price">
+                      <span>$1800.00</span>
+                    </div>
+                    <a href="./turismo/paquetes.html"
+                      ><img class="img-fluid" src="./media/punta_cana.jpg" atl="PuntaCanaCombo"
+                    /></a>
+                  </div>
+                  <div class="down-content">
+                    <div class="deal">
+                      <h6 class="text-dark fw-bold">OFF<span>25%</span></h6>
+                    </div>
+                    <a href="./turismo/paquetes.html"><h4>Paquete Punta Cana</h4></a>
+                    <p>Vuelo + Hotel RIU Punta Cana All Inclusive<br/>Viaje al Caribe por 7 noches en oferta, tarifa en base doble.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="package-des">
+                  <div class="thumb">
+                    <div class="price">
+                      <span>$450.00</span>
+                    </div>
+                    <a href="./turismo/paquetes.html"
+                      ><img class="img-fluid" src="./media/parisV2.jpg" atl="Paris"
+                    /></a>
+                  </div>
+                  <div class="down-content">
+                    <div class="deal">
+                      <h6 class="text-dark fw-bold">Oferta<span></span></h6>
+                    </div>
+                    <a href="./turismo/paquetes.html"><h4>Conozca Paris</h4></a>
+                    <p>Vuelo directo de 6 horas a Paris en oferta<br /> Disfrute un vuelo a Paris a precio de oferta</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="package-des">
+                  <div class="thumb">
+                    <div class="price">
+                      <span>$660.00</span>
+                    </div>
+                    <a href="./turismo/paquetes.html"
+                      ><img class="img-fluid" src="./media/tokiov2.jpg" atl="Japon-Tokio"
+                    /></a>
+                  </div>
+                  <div class="down-content">
+                    <div class="deal">
+                      <h6 class="text-dark fw-bold"><span>Oferta</span></h6>
+                    </div>
+                    <a href="./turismo/paquetes.html"><h4>Conozca Japon</h4></a>
+                    <p>Vuelo directo a Tokio - Japon <br /></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---Servicios-->
+    <div class="cards-1 bg-img" id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="text-container">
+              <h2 class="text-white fw-bold">Nuestros servicios</h2>
+              <p class="text-white">
+                A continuacion detallaremos algunos de nuestros servicios como una de las mejores empresas de turismo del mercado.
+              </p>
+              <p class="text-white">
+                Como representantes oficiales de muchas cadenas del mundo entero podemos ofrecerle a nuestros clientes los siguientes beneficios:
+              </p>
+              <ul class="list-unstyled li-space-lg">
+                <li class="d-flex">
+                  <i class="fas fa-square text-white"></i>
+                  <div class="flex-grow-1 text-white">
+                    Ofertas en All Inclusive
+                  </div>
+                </li>
+                <li class="d-flex">
+                  <i class="fas fa-square text-white"></i>
+                  <div class="flex-grow-1 text-white">
+                    Precios promocionales en Cruceros
+                  </div>
+                </li>
+                <li class="d-flex">
+                  <i class="fas fa-square text-white"></i>
+                  <div class="flex-grow-1 text-white">
+                    Ofertas en tarifas aereas
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-------->
+          <div class="col-lg-7">
+            <div class="card-container">
+              <!------>
+              <div class="card">
+                <div class="card-icon">
+                  <span class="fas fa-utensils"></span>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-white">
+                    Oferta gastronomica en su destino.
+                  </h5>
+                </div>
+              </div>
+              <!------>
+              <!------>
+              <div class="card">
+                <div class="card-icon">
+                  <span class="fas fa-ship"></span>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-white">Turismo en Cruceros.</h5>
+                </div>
+              </div>
+              <!------>
+              <!------>
+              <div class="card">
+                <div class="card-icon">
+                  <span class="fas fa-store"></span>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-white">Tours por los mejores shoppings.</h5>
+                </div>
+              </div>
+              <!------>
+              <!------>
+              <div class="card">
+                <div class="card-icon">
+                  <span class="fas fa-monument"></span>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-white">Visitar monumentos de la ciudad.</h5>
+                </div>
+              </div>
+              <!------>
+              <!------>
+              <div class="card">
+                <div class="card-icon">
+                  <span class="fas fa-bus"></span>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-white">Tours guiados.</h5>
+                </div>
+              </div>
+              <!------>
+              <!------>
+              <div class="card">
+                <div class="card-icon">
+                  <span class="fas fa-hotel"></span>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-white">Los mejores hoteles del mercado.</h5>
+                </div>
+              </div>
+              <!------>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---end of the Services Section-->
+    <!---contact Form-->
+    <section class="contact">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-5 col-xl-4">
+                    <h5 class="text-white fw-bold">Contactenos</h5>
+                    <h2 class="text-white" >Haganos llegar su consulta mediante este formulario</h2>
+                    <p class="text-white">Lunes a Viernes, 9am a 6pm.</p>
+        </div>
+          <div class="col-md-6 col-lg-5 col-xl-4">
+            <form class="row">
+              <div class="mb-3">
+                <label class="form-label visually-hidden" for="inputName">Nombre</label>
+                <input
+                  class="form-control"
+                  id="inputName"
+                  type="text"
+                  placeholder="Nombre"
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label visually-hidden" for="inputEmail"
+                  >Email</label
+                >
+                <input
+                  class="form-control"
+                  id="inputEmail"
+                  type="email"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="mb-5">
+                <label
+                  class="form-label visually-hidden"
+                  for="validationTextarea"
+                  >Mensaje</label
+                >
+                <textarea
+                  class="form-control is-invalid border-400"
+                  id="validationTextarea"
+                  placeholder="Mensaje"
+                  style="height: 150px"
+                  required="required"
+                ></textarea>
+              </div>
+              <div class="d-grid">
+                <button class="btn btn-light" type="submit">
+                  Enviar Consulta<i class="fas fa-paper-plane ms-2"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+        <div class="copyright bg-dark">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12">
+              <ul class="list-unstyled li-space-lg p-small">
+                <li>
+                  <a href="" class="text-white fw-bold">Inicio</a>
+                </li>
+                <li><a href="" class="text-white fw-bold">Promociones</a></li>
+                <li>
+                  <a href="" class="text-white fw-bold">Contacto</a>
+                </li>
+                <div class="footer">
+                    <span class="fa-stack">
+                        <a href=""
+                          ><i class="fas fa-circle fa-stack-2x"></i>
+                          <i class="fab fa-facebook fa-stack-1x"></i
+                        ></a>
+                      </span>
+                      <span class="fa-stack">
+                        <a href=""
+                          ><i class="fas fa-circle fa-stack-2x"></i>
+                          <i class="fab fa-twitter fa-stack-1x"></i
+                        ></a>
+                      </span>
+                      <span class="fa-stack">
+                        <a href=""
+                          ><i class="fas fa-circle fa-stack-2x"></i>
+                          <i class="fab fa-instagram fa-stack-1x"></i
+                        ></a>
+                      </span>
+                      <span class="fa-stack">
+                        <a href=""
+                          ><i class="fas fa-circle fa-stack-2x"></i>
+                          <i class="fab fa-pinterest fa-stack-1x"></i
+                        ></a>
+                      </span>
+                      <span class="fa-stack">
+                        <a href=""
+                          ><i class="fas fa-circle fa-stack-2x"></i>
+                          <i class="fab fa-youtube fa-stack-1x"></i
+                        ></a>
+                      </span>
+                    </div>
+                </div>
+                    
+              </ul>
+            </div>
+            <div class="col-lg-3">
+            </div>
+            
+            <div class="p-small statement text-white">Made by: Bryan. <br> Copyright ©2023 All rights Reserved</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  -->
+  </body>
+</html>

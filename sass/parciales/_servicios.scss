@@ -1,0 +1,77 @@
+.servicios {
+    background: url(../media/fondo-servicios.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 110px;
+    &-des {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        & .thumb {
+            position: relative; 
+            & a {
+              color:rgba(250, 250, 250, 0.9);
+            }
+            & h6 {
+              width: 0%;
+              height: 100%;
+              background-color: rgba(80, 80, 75, 0.664);
+              border-top-right-radius: 20px;
+              border-top-left-radius: 20px;
+              position:absolute;
+              top:0;
+              display:flex;
+              justify-content: center;
+              align-items: center;
+              overflow: hidden;
+              transition: all 400ms ease-in-out;
+            }
+            &:hover{
+              & h6{
+                font-size: 1rem;
+                border: 3px solid #fff;
+                padding: 1.8rem;
+                overflow: hidden;
+                width: 100%;            
+              }
+              }
+            & img {
+                width: 100%;
+                border-top-right-radius: 20px;
+                border-top-left-radius: 20px;
+              }
+            & .price span {
+                font-size: 16px;
+                color: #1f272b;
+                background-color: rgba(250, 250, 250, 0.9);
+                padding: 7px 12px;
+                border-radius: 10px;
+              }
+          }
+        & .down-content{
+            background-color: #fff;
+            padding: 30px;
+            border-bottom-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            & h4 {
+                margin-left: 10px;
+                color: #1f272b;
+                display: inline-block;
+                margin-bottom: 15px;
+              }
+            & p {
+                margin-left: 10px;
+                color: #1f272b;
+                font-size: 14px;
+              }
+          }
+      }
+  }
+  .centrado{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+ 

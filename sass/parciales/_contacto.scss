@@ -1,0 +1,32 @@
+.contact{
+    background-image: url(../media/contactov3.png);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 230px;
+    padding-bottom: 110px;
+    &-form{
+        background-color: #1f272b;
+        background-attachment: fixed;
+        padding-top: 130px;
+        padding-bottom: 110px;
+      }
+  }
+  .form{
+    &-control {
+        border: 1px solid rgba(146, 145, 161, 0.5);
+        background-color: transparent;
+        padding: 0.5rem 0.5rem;
+        border-color: white;
+        &.is-invalid{
+            }
+        &:invalid {
+            border-color: #fff;
+          }
+      }
+    &-label {
+        margin-bottom: 1.25rem;
+        color: #9291a1;
+      }
+  }
